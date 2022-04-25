@@ -19,11 +19,7 @@ function App(props) {
       ) : app.url ? (
         <a href={app.url} className="openlink">
           <img
-            src={
-              app.icon
-                ? app.icon
-                : "https://media.discordapp.net/attachments/822787638615474176/966694168086855690/icon_g.png"
-            }
+            src={app.icon ? app.icon : "./pages/" + app.name + "/icon.svg"}
           />{" "}
           {props.folder ? (
             ""
@@ -33,13 +29,7 @@ function App(props) {
         </a>
       ) : (
         <NavLink to={"/blog?id=" + app.name} onClick={playCoolAnimationPls}>
-          <img
-            src={
-              app.icon
-                ? app.icon
-                : "https://media.discordapp.net/attachments/822787638615474176/966694168086855690/icon_g.png"
-            }
-          />{" "}
+          <img src={"./pages/" + app.name + "/icon.svg"} />{" "}
           {props.folder ? (
             ""
           ) : (

@@ -1,44 +1,12 @@
+title=Cursors
+description=
+
 ---
-titre=Cursors
-description=Cursors I use
--
+
+title=
+
 type=cursor
 name=Black Queen
 description=Curseur windows
 img=bqc.png
 download=BlackQueen1.2_cursor.zip
--
-type=cursor
-name=Black Queen
-description=Curseur windows
-img=bqc.png
-download=BlackQueen1.2_cursor.zip
--
-type=cursor
-name=Black Queen
-description=Curseur windows
-img=bqc.png
-download=BlackQueen1.2_cursor.zip
--
----
-titre=Cursors
-description=Cursors I use
--
-type=cursor
-name=Black Queen
-description=Curseur windows
-img=bqc.png
-download=BlackQueen1.2_cursor.zip
--
-type=cursor
-name=Black Queen
-description=Curseur windows
-img=bqc.png
-download=BlackQueen1.2_cursor.zip
--
-type=cursor
-name=Black Queen
-description=Curseur windows
-img=bqc.png
-download=BlackQueen1.2_cursor.zip
--

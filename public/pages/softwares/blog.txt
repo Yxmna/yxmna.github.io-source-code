@@ -3,7 +3,7 @@ description=All the softwares I usually use
 
 ---
 
-title=Dev
+title=Practice
 
 name=Mozilla Firefox
 type=software
@@ -18,6 +18,34 @@ description=Editing, processing and drawing software
 homepage=https://www.adobe.com/fr/products/photoshop.html
 icon=https://photoshop.com/fr/images/apps/photoshop.png
 
+name=7-Zip
+type=software
+description=File compressor
+homepage=https://www.7-zip.org/
+icon=https://www.7-zip.org/7ziplogo.png
+
+name=SpaceSniffer
+type=software
+description=Memory visualization
+homepage=http://www.uderzo.it/main_products/space_sniffer/
+icon=https://img.utdstc.com/icon/37c/36e/37c36eacae881da52fb2ae26bdf56cd1a762d04f7a2787ae7b5b2779f41a3fe2:200
+
+name=OBS Studio
+type=software
+description=Video recording & Steaming
+homepage=https://obsproject.com/fr/
+icon=https://obsproject.com/assets/images/new_icon_small-r.png
+
+name=VLC media player
+type=software
+description=Media player
+homepage=https://www.videolan.org/vlc
+icon=https://images.videolan.org/images/largeVLC.png
+
+---
+
+title=Dev
+
 name=Atom
 type=software
 description=Editing, processing and drawing software
@@ -25,8 +53,21 @@ homepage=https://atom.io/
 download=https://github.com/atom/atom/releases
 icon=https://cdn.discordapp.com/attachments/967469498150047755/967511040961171516/atom.png
 
-name=7-Zip
+name=Ungoogled Chromium
 type=software
-description=File compressor
-homepage=https://www.7-zip.org/
-icon=https://www.7-zip.org/7ziplogo.png
+description=Web browser without google
+homepage=https://github.com/Eloston/ungoogled-chromium
+download=https://github.com/Eloston/ungoogled-chromium/releases
+icon=https://www.chromium.org/_assets/customLogo.png
+
+name=Git
+type=software
+description=Project management
+homepage=https://git-scm.com/
+icon=https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png
+
+name=GitHub Desktop
+type=software
+description=Git assistant for Github
+homepage=https://desktop.github.com/
+icon=https://desktop.github.com/images/desktop-icon.svg

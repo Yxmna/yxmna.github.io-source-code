@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import React, { useState, useEffect } from "react";
 
 function Explorer(props) {
   let blog_name = new URLSearchParams(window.location.search).get("id");
@@ -73,13 +72,13 @@ function Explorer(props) {
               <p>/root</p>
               <ul>
                 <li>
-                  <NavLink to="/" >
+                  <NavLink to="/">
                     <img src={"./icons/website.png"} />
                     Apps
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about" >
+                  <NavLink to="/about">
                     <img src={"./icons/website.png"} />
                     About
                   </NavLink>

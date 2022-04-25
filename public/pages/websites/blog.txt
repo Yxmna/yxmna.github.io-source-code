@@ -3,20 +3,97 @@ description=All the sites I usually use
 
 ---
 
+title=Practice
+
+name=DeepL
+type=website
+description=best free translator
+homepage=https://www.deepl.com/translator
+icon=https://www.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg
+
+name=color-hex
+type=website
+description=Information about colors
+homepage=https://www.color-hex.com/
+
+name=CalcMe
+type=website
+description=Calculator
+homepage=https://calcme.com/
+
+name=Xahlee Unicode
+type=website
+description=Unicodes list
+homepage=http://xahlee.info/comp/unicode_index.html
+
+name=Pinterest
+type=website
+description=Source of inspiration
+homepage=https://www.pinterest.fr/
+icon=https://cdn.freebiesupply.com/logos/large/2x/pinterest-1-logo-png-transparent.png
+
+---
+
 title=Dev
 
-type=website
 name=Github
+type=website
 description=Store projects and host Websites
 homepage=https://github.com/Yxmna
 icon=https://github.com/fluidicon.png
 
-type=website
-name=color-hex
-description=Information about colors
-homepage=https://github.com/Yxmna
-
-type=website
 name=Airtable
+type=website
 description=Cloud free databases
 homepage=https://airtable.com/
+
+name=discord.js
+type=website
+description=Discord.js documentation
+homepage=https://discord.js.org/#/docs/main/stable/general/welcome
+
+---
+
+title=Minecraft
+
+name=PlanetMinecraft
+type=website
+description=Minecraft community
+homepage=https://www.planetminecraft.com/member/yomna/
+icon=https://static.planetminecraft.com/files/avatar/3_1.png
+
+name=MapartCraft
+type=website
+description=Map-art generator
+homepage=https://rebane2001.com/mapartcraft/
+
+name=MCStacker
+type=website
+description=Minecraft command generator
+homepage=https://mcstacker.net/
+
+name=NameMC
+type=website
+description=Minecraft nickname community
+homepage=https://namemc.com/profile/Yomna.7
+icon=https://s.namemc.com/img/favicon-128.png
+
+---
+
+title=Funko
+
+name=HobbyDb
+type=website
+description=Estimated prices for Funko pops
+homepage=https://www.hobbydb.com/marketplaces/hobbydb/catalog_items?filters[q][0]=funko
+icon=https://www.hobbydb.com/assets/favicon_v3.png
+
+---
+
+title=Discord
+
+name=Discord
+type=website
+description=Community
+homepage=https://discord.com/channels/
+icon=https://maitopartem.com/wp-content/uploads/2020/11/discord_icon_130958.png

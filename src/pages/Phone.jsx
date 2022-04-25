@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Folder from "../components/Folder";
 import App from "../components/App";
-import { NavLink } from "react-router-dom";
 import Explorer from "../components/Explorer";
 
 function Home() {
@@ -9,10 +8,7 @@ function Home() {
   const [folders, setFolders] = useState([""]);
 
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/Yxmna/Yxmna.github.io/master/public/pages/folders.json",
-      {}
-    )
+    fetch("./pages/folders.json", {})
       .then(function (res) {
         return res.json();
       })
@@ -20,8 +16,6 @@ function Home() {
         setFolders(obj.folders);
       });
   }, []);
-
-  console.log(folders);
 
   useEffect(() => {
     localStorage.setItem("folders", JSON.stringify(folders));

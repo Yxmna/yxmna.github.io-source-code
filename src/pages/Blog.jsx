@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
 import SectionBlog from "../components/SectionBlog";
 import Explorer from "../components/Explorer";
 
@@ -12,12 +11,7 @@ function Blog() {
   const [blog, setblog] = useState("");
 
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/Yxmna/Yxmna.github.io/master/public/pages/" +
-        blog_name +
-        "/blog.txt",
-      {}
-    )
+    fetch("./pages/" + blog_name + "/blog.txt", {})
       .then(function (res) {
         return res.text();
       })
@@ -26,7 +20,7 @@ function Blog() {
       });
   }, []);
 
-  let params_obj = {}
+  let params_obj = {};
   let blogs = [];
 
   function makeTheBlogObjectPls() {
@@ -44,7 +38,8 @@ function Blog() {
         description: "",
         content: [],
       };
-      let blog_content = b.split("\n\n");
+      let correct_b = b.split("\r").join("");
+      let blog_content = correct_b.split("\n\n");
       blog_content.shift();
       let blog_params = blog_content[0].split("\n");
       blog_params.forEach((item, i) => {
@@ -67,7 +62,6 @@ function Blog() {
       blogs.push(blog_obj);
     });
   }
-
 
   makeTheBlogObjectPls();
 

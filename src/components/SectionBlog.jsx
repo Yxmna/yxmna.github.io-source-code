@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import Asset from "../components/Asset";
 
 function SectionBlog(props) {
@@ -6,10 +5,20 @@ function SectionBlog(props) {
   let blog_name = new URLSearchParams(window.location.search).get("id");
 
   return (
-    <section className="section_blog" id={blog.title?blog.title.split(" ").join("_").toLowerCase():blog_name.split(" ").join("_").toLowerCase()}>
+    <section
+      className="section_blog"
+      id={
+        blog.title
+          ? blog.title.split(" ").join("_").toLowerCase()
+          : blog_name.split(" ").join("_").toLowerCase()
+      }
+    >
       {blog.title ? (
         <header>
-          <h1>{blog.title[0].toUpperCase() + blog.title.substring(1).toLowerCase()}</h1>
+          <h1>
+            {blog.title[0].toUpperCase() +
+              blog.title.substring(1).toLowerCase()}
+          </h1>
         </header>
       ) : (
         ""

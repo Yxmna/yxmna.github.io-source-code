@@ -5,13 +5,13 @@ function About() {
     <>
       <Explorer />
       <main>
-      <header id="home">
-        <div id="weird">
-          <div id="unweird">
-            <h1>Hello world, I'm Yomna</h1>
+        <header id="home">
+          <div id="weird">
+            <div id="unweird">
+              <h1>Hello world, I'm Yomna</h1>
+            </div>
           </div>
-        </div>
-      </header>
+        </header>
       </main>
     </>
   );
