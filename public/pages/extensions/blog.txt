@@ -1,0 +1,92 @@
+title=Extensions
+description=All the extensions I usually use
+
+---
+
+title=Privacy, Security & Ads
+
+name=uBlock Origin
+type=website
+description=Nuisance blocker
+homepage=https://addons.mozilla.org/fr/firefox/addon/ublock-origin/
+icon=https://addons.mozilla.org/user-media/addon_icons/607/607454-64.png?modified=mcrushed
+
+name=SponsorBlock
+type=website
+homepage=https://addons.mozilla.org/fr/firefox/addon/sponsorblock/
+icon=https://addons.mozilla.org/user-media/addon_icons/2590/2590937-64.png?modified=d215907f
+description=Automatically skip embedded commercials and ads in YouTube videos
+
+name=Privacy Possum
+type=website
+description=Wrenches common commercial tracking
+homepage=https://addons.mozilla.org/fr/firefox/addon/privacy-possum/
+icon=https://addons.mozilla.org/user-media/addon_icons/953/953945-64.png?modified=8ab422b7
+
+name=Privacy Badger
+type=website
+description=Block invisible trackers
+homepage=https://addons.mozilla.org/fr/firefox/addon/privacy-badger17/
+icon=https://addons.mozilla.org/user-media/addon_icons/506/506646-64.png?modified=mcrushed
+
+name=HTTPS Everywhere
+type=website
+description=automatically enables HTTPS encryption on sites that support it
+homepage=https://addons.mozilla.org/fr/firefox/addon/https-everywhere/
+icon=https://addons.mozilla.org/user-media/addon_icons/229/229918-64.png?modified=mcrushed
+
+---
+
+title=Practice
+
+name=Dark Reader
+type=website
+description=A dark theme for every website
+homepage=https://addons.mozilla.org/fr/firefox/addon/darkreader/
+icon=https://addons.mozilla.org/user-media/addon_icons/855/855413-64.png?modified=3f34e276
+
+name=DownThemAll!
+type=website
+homepage=https://addons.mozilla.org/fr/firefox/addon/downthemall/
+description=The Mass Downloader for your browser
+icon=https://addons.mozilla.org/user-media/addon_icons/0/201-64.png?modified=75056c0c
+
+name=SVG Export
+type=website
+homepage=https://addons.mozilla.org/fr/firefox/addon/downthemall/
+description=Download SVGs from websites as SVGs, PNGs or JPEGs
+icon=https://addons.mozilla.org/user-media/addon_icons/2639/2639587-64.png?modified=c442450d
+
+name=WebP / Avif image converter
+type=website
+homepage=https://addons.mozilla.org/fr/firefox/addon/webp-image-converter/
+description=Convert WebP, Avif and other image types before saving
+icon=https://addons.mozilla.org/user-media/addon_icons/2610/2610946-64.png?modified=eb9fe762
+
+name=Stylus
+type=website
+homepage=https://addons.mozilla.org/fr/firefox/addon/styl-us/
+description=User style manager
+icon=https://addons.mozilla.org/user-media/addon_icons/814/814814-64.png?modified=1542603952
+
+---
+
+title=Dev
+
+name=Colorpick Eyedropper
+type=website
+description=Tool allowing you to select color values from webpages
+homepage=https://addons.mozilla.org/fr/firefox/addon/colorpick-eyedropper/
+icon=https://addons.mozilla.org/user-media/addon_icons/439/439080-64.png?modified=1566330009
+
+name=Measure-it
+type=website
+description=Tool allowing you to select color values from webpages
+homepage=https://addons.mozilla.org/fr/firefox/addon/measure-it/
+icon=https://addons.mozilla.org/user-media/addon_icons/851/851503-64.png?modified=1648138451
+
+name=React Developer Tools
+type=website
+description=Tool that allows you to inspect a React tree
+homepage=https://addons.mozilla.org/fr/firefox/addon/downthemall/
+icon=https://addons.mozilla.org/user-media/addon_icons/649/649896-64.png?modified=mcrushed

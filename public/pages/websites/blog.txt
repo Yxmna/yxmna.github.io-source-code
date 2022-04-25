@@ -1,0 +1,22 @@
+title=Websites
+description=All the sites I usually use
+
+---
+
+title=Dev
+
+type=website
+name=Github
+description=Store projects and host Websites
+homepage=https://github.com/Yxmna
+icon=https://github.com/fluidicon.png
+
+type=website
+name=color-hex
+description=Information about colors
+homepage=https://github.com/Yxmna
+
+type=website
+name=Airtable
+description=Cloud free databases
+homepage=https://airtable.com/

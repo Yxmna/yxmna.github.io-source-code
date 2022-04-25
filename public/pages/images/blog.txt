@@ -1,0 +1,36 @@
+title=My arts
+description=
+
+---
+
+title=Digital art
+
+type=image
+name=Bonheur
+description=My first real project with a graphic tablet
+img=bonheur.png
+date=04/2019
+download=bonheur.png
+video=https://youtu.be/0eV3ES55ItE
+
+type=image
+name=The Hope
+description=My first time with blender
+img=the-hope.png
+date=06/2018
+download=the-hope.png
+video=https://youtu.be/VnQuepy4btQ
+
+type=image
+name=Chapeau d'paille
+description=My first test with a graphic tablet
+date=10/2017
+img=chapeau-d-paille.png
+download=chapeau-d-paille.png
+
+type=image
+name=Usc 7
+description=My first wallpaper made by me with Photoshop
+date=09/2017
+img=usc7.png
+download=usc7.png

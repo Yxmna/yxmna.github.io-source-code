@@ -1,0 +1,40 @@
+{
+  "folders": [{
+      "name": "art",
+      "apps": [{
+        "name": "images",
+        "icon": "https://developer.apple.com/design/human-interface-guidelines/ios/images/icons/app_icons/Photos.png"
+      }]
+    },
+
+    {
+      "name": "misc",
+      "apps": [{
+        "name": "cursors"
+      }]
+    },
+
+    {
+      "name": "list",
+      "apps": [{
+          "name": "solftwares"
+        },
+        {
+          "name": "websites"
+        },
+        {
+          "name": "extensions"
+        }
+      ]
+    },
+
+    {
+      "name": "discord",
+      "apps": [{
+        "name": "akume",
+        "url": "https://yxmna.github.io/Akume-BOT/"
+      }]
+    }
+
+  ]
+}

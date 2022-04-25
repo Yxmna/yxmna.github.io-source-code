@@ -1,0 +1,54 @@
+import { NavLink } from "react-router-dom";
+
+function App(props) {
+  let app = props.app;
+
+  function playCoolAnimationPls() {
+    document.body.classList.remove("pageBack");
+    document.body.classList.add("pageFor");
+  }
+
+  return (
+    <li
+      className={
+        props.index <= 4 ? "first" : app.name == "none" ? "phantom" : ""
+      }
+    >
+      {app.name == "none" ? (
+        <a> </a>
+      ) : app.url ? (
+        <a href={app.url} className="openlink">
+          <img
+            src={
+              app.icon
+                ? app.icon
+                : "https://media.discordapp.net/attachments/822787638615474176/966694168086855690/icon_g.png"
+            }
+          />{" "}
+          {props.folder ? (
+            ""
+          ) : (
+            <p> {app.name[0].toUpperCase() + app.name.substring(1)} </p>
+          )}{" "}
+        </a>
+      ) : (
+        <NavLink to={"/blog?id=" + app.name} onClick={playCoolAnimationPls}>
+          <img
+            src={
+              app.icon
+                ? app.icon
+                : "https://media.discordapp.net/attachments/822787638615474176/966694168086855690/icon_g.png"
+            }
+          />{" "}
+          {props.folder ? (
+            ""
+          ) : (
+            <p> {app.name[0].toUpperCase() + app.name.substring(1)} </p>
+          )}{" "}
+        </NavLink>
+      )}{" "}
+    </li>
+  );
+}
+
+export default App;

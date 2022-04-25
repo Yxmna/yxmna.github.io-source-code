@@ -1,0 +1,31 @@
+#blog {
+  > header {
+    // border-bottom: 1px solid #1f2228;
+    padding: 50px 0 50px 125px;
+  }
+
+  > header {
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #829a9c;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: pre-wrap;
+    margin-bottom: 15px;
+    // opacity: .5;
+  }
+
+  section article:last-child {
+    border: 0;
+  }
+}

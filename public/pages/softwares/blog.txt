@@ -1,0 +1,32 @@
+title=Softwares
+description=All the softwares I usually use
+
+---
+
+title=Dev
+
+name=Mozilla Firefox
+type=software
+description=Web browser
+homepage=https://www.mozilla.org/fr/firefox/browsers/
+download=https://www.mozilla.org/fr/firefox/channel/desktop/
+icon=https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg
+
+name=Photoshop
+type=software
+description=Editing, processing and drawing software
+homepage=https://www.adobe.com/fr/products/photoshop.html
+icon=https://photoshop.com/fr/images/apps/photoshop.png
+
+name=Atom
+type=software
+description=Editing, processing and drawing software
+homepage=https://atom.io/
+download=https://github.com/atom/atom/releases
+icon=https://cdn.discordapp.com/attachments/967469498150047755/967511040961171516/atom.png
+
+name=7-Zip
+type=software
+description=File compressor
+homepage=https://www.7-zip.org/
+icon=https://www.7-zip.org/7ziplogo.png
