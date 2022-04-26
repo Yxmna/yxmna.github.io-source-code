@@ -28,6 +28,14 @@
     },
 
     {
+      "name": "funko pop!",
+      "apps": [{
+        "name": "stickers",
+        "special_page": "funko-stickers",
+        "icon": "./pages/other_icons/stickers.svg"
+      }]
+    },
+    {
       "name": "discord",
       "apps": [{
         "name": "akume",

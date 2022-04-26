@@ -1,0 +1,43 @@
+.stickers {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  padding: 100px 10%;
+  border-bottom: 1px solid #1f2228;
+
+  > div {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #21252b;
+
+    > div {
+    // background-color: #21252b;
+      width: 200px;
+      height: 200px;
+      display: flex;
+    }
+
+    p {
+      background-color: #00000069;
+      padding: 5px;
+      margin-top: 15px;
+      border-radius: 5px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+}

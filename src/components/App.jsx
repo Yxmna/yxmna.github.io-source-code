@@ -27,6 +27,17 @@ function App(props) {
             <p> {app.name[0].toUpperCase() + app.name.substring(1)} </p>
           )}{" "}
         </a>
+      ) : app.special_page ? (
+        <NavLink to={"/" + app.special_page} onClick={playCoolAnimationPls}>
+          <img
+            src={app.icon ? app.icon : "./pages/" + app.name + "/icon.svg"}
+          />{" "}
+          {props.folder ? (
+            ""
+          ) : (
+            <p> {app.name[0].toUpperCase() + app.name.substring(1)} </p>
+          )}{" "}
+          </NavLink>
       ) : (
         <NavLink to={"/blog?id=" + app.name} onClick={playCoolAnimationPls}>
           <img src={"./pages/" + app.name + "/icon.svg"} />{" "}

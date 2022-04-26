@@ -9,6 +9,7 @@ import Explorer from "./components/Explorer";
 import Phone from "./pages/Phone";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
+import Stickers from "./pages/Stickers";
 
 const version = "1.4";
 console.log("v" + version);
@@ -21,6 +22,7 @@ root.render(
         <Route path="/" element={<Phone />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/funko-stickers" element={<Stickers />} />
       </Routes>
     </main>
   </BrowserRouter>

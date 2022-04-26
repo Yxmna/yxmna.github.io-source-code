@@ -1,7 +1,12 @@
 import { NavLink } from "react-router-dom";
 
 function Explorer(props) {
-  let blog_name = new URLSearchParams(window.location.search).get("id");
+  let blog_name;
+  if (!props.blog_name) {
+    blog_name = new URLSearchParams(window.location.search).get("id");
+  } else {
+    blog_name = props.blog_name;
+  }
 
   function playCoolAnimationPls() {
     document.body.classList.remove("pageFor");
@@ -9,6 +14,7 @@ function Explorer(props) {
   }
 
   function scrollToIdPls(id) {
+    console.log(id);
     const element = document.getElementById(id);
     window.scrollTo({
       top: element.offsetTop - window.innerHeight / 4,

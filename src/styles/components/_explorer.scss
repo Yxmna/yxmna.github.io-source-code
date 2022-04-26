@@ -17,8 +17,9 @@
 
   > div {
     padding: 0;
-    width: 210px;
+    // width: 210px;
     margin: 20% auto 0;
+    margin-left: 10%;
 
     > a {
       color: white;
@@ -36,7 +37,8 @@
 
     > ul {
       padding: 0;
-      width: 210px;
+      // width: 210px;
+      width: calc(100% - 10% - 10px);
       overflow: hidden;
       overflow-y: auto;
       height: calc(85vh);
