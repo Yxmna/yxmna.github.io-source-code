@@ -33,7 +33,12 @@
         "name": "stickers",
         "special_page": "funko-stickers",
         "icon": "./pages/other_icons/stickers.svg"
-      }]
+      },{
+        "name": "collections",
+        "url": "https://yxmna.github.io/funko-collection/",
+        "icon": "./pages/other_icons/collections.svg"
+      }
+    ]
     },
     {
       "name": "discord",

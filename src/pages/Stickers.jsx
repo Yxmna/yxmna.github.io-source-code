@@ -11,12 +11,9 @@ function Stickers() {
         return res.json();
       })
       .then(function (obj) {
-        console.log(obj);
         setStickers(obj.stickers);
       });
   }, []);
-
-  console.log(stickers);
 
   let blogs = [
     {
@@ -67,8 +64,6 @@ function Stickers() {
         ".svg";
     }
   });
-
-  console.log(stickers_with_url);
 
   return (
     <>
